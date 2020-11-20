@@ -62,7 +62,7 @@ class MyAppState extends State<MyApp> {
         builder: (context) {
           return AlertDialog(
             title: Text('Token received'),
-            content: Text("Token is: $token"),
+            content: SelectableText("Token is: $token"),
             actions: <Widget>[
               FlatButton(
                 child: Text('Ok'),
